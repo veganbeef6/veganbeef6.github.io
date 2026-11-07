@@ -11,6 +11,7 @@ const { site, games } = JSON.parse(read('data/games.json'));
 const media = JSON.parse(read('data/media.json'));
 const logo = JSON.parse(read('data/logo-paths.json'));
 const POLICY_DATE = '7 November 2026';
+const TERMS_DATE = '7 November 2026';
 const ASSET_V = Date.now().toString(36);
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -94,7 +95,7 @@ const header = (current = '') => {
 const footer = () => `<footer class="foot"><div class="wrap foot-in">
   <div class="foot-top">
     <a class="brand" href="/" aria-label="VeganBeef home">${vb('')}<span style="color:#fff">VeganBeef</span></a>
-    <nav aria-label="Footer"><a href="/#games">Games</a><a href="/support/">Support</a><a href="/privacy/">Privacy policy</a><a href="${site.playDeveloper}">Google Play</a><a href="${site.youtube}">YouTube</a></nav>
+    <nav aria-label="Footer"><a href="/#games">Games</a><a href="/support/">Support</a><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of service</a><a href="${site.playDeveloper}">Google Play</a><a href="${site.youtube}">YouTube</a></nav>
   </div>
   <small>© ${new Date().getFullYear()} VeganBeef, ${esc(site.city)}. Google Play and the Google Play logo are trademarks of Google LLC.</small>
 </div></footer>`;
@@ -241,7 +242,7 @@ function home() {
     title: 'VeganBeef Games',
     desc: `VeganBeef is a mobile game studio in ${site.city}, making free-to-play puzzle, word, action, racing and driving games for Android.`,
     body,
-    jsonld: { '@context': 'https://schema.org', '@type': 'Organization', name: 'VeganBeef', url: site.url + '/', logo: site.url + '/assets/brand/apple-touch-icon.png', email: site.email, address: { '@type': 'PostalAddress', addressLocality: 'Islamabad', addressCountry: 'PK' }, sameAs: [site.playDeveloper, site.youtube] },
+    jsonld: { '@context': 'https://schema.org', '@type': 'Organization', name: 'VeganBeef', url: site.url + '/', logo: site.url + '/assets/brand/apple-touch-icon.png', email: site.email, address: { '@type': 'PostalAddress', addressCountry: 'PK' }, sameAs: [site.playDeveloper, site.youtube] },
   });
 }
 
@@ -318,6 +319,7 @@ const textPage = ({ urlPath, title, heading, sub, file, current, desc }) => page
 write('index.html', home());
 games.forEach((g) => write(`games/${g.slug}/index.html`, gamePage(g)));
 write('privacy/index.html', textPage({ urlPath: '/privacy/', title: 'Privacy Policy | VeganBeef', heading: 'Privacy policy', sub: `Last updated ${POLICY_DATE}`, file: 'src/privacy.html', current: 'privacy', desc: 'How VeganBeef games handle your information, which ad and analytics partners they use, and the choices you have.' }));
+write('terms/index.html', textPage({ urlPath: '/terms/', title: 'Terms of Service | VeganBeef', heading: 'Terms of service', sub: `Last updated ${TERMS_DATE}`, file: 'src/terms.html', current: 'terms', desc: 'The terms for playing VeganBeef games: purchases, subscriptions, in-game items, ads, your progress and your rights.' }));
 write('support/index.html', textPage({ urlPath: '/support/', title: 'Player Support | VeganBeef', heading: 'Player support', sub: 'Something wrong in one of our games? We can help.', file: 'src/support.html', current: 'support', desc: 'Help with VeganBeef games: contact us, purchases, refunds, ads and your data.' }));
 write('404.html', page({ urlPath: '/404.html', title: 'Page not found | VeganBeef', desc: 'This page does not exist.', robots: 'noindex', body: `<section class="mat on-ink"><div class="wrap lost"><h1>Wrong stop.</h1><p>That page doesn't exist. The games do.</p><a class="btn" href="/">Back to the games</a></div></section>` }));
 
@@ -325,6 +327,6 @@ fs.copyFileSync(path.join(ROOT, 'src/site.css'), path.join(OUT, 'assets/site.css
 fs.copyFileSync(path.join(ROOT, 'src/site.js'), path.join(OUT, 'assets/site.js'));
 fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
-const urls = ['/', ...games.map((g) => `/games/${g.slug}/`), '/support/', '/privacy/'];
+const urls = ['/', ...games.map((g) => `/games/${g.slug}/`), '/support/', '/privacy/', '/terms/'];
 fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${site.url}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 console.log(`built ${urls.length} pages · ${live.length} live · ${totalInstalls.toLocaleString('en-US')} installs (${totalLabel}) · ${released2026} in 2026`);
