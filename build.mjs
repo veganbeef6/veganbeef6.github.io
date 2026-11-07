@@ -167,7 +167,7 @@ function home() {
   const body = `<section class="hero mat on-ink">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow">Mobile games from ${esc(site.city)}</p>
+      <p class="eyebrow">Free-to-play mobile games</p>
       <h1 aria-label="No beef. Just games."><span class="die die-1" data-t="NO BEEF." aria-hidden="true">NO BEEF.</span><span class="die die-2" data-t="JUST" aria-hidden="true">JUST</span><span class="die die-3" data-t="GAMES." aria-hidden="true">GAMES.</span></h1>
       <p class="hero-lead">Lots of games in lots of flavors: color sorts, logic and word puzzles, physics smashers, castle battles, racing and driving. All free to play on Google Play.</p>
       <div class="hero-cta"><a class="btn" href="#games">See the games</a><a class="btn btn-white" href="${site.playDeveloper}">Open Google Play</a></div>
