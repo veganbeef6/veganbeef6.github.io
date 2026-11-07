@@ -1,0 +1,137 @@
+{
+ "ant-colony": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "boom-tower-smash": {
+  "shots": 6,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "bubble-word-sort": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "color-arrow-escape": {
+  "shots": 4,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "color-stack-sort": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "cube-arrows": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "formula-racing": {
+  "shots": 4,
+  "w": 1280,
+  "h": 720,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "gemlings": {
+  "shots": 7,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "indian-truck-simulator": {
+  "shots": 6,
+  "w": 1280,
+  "h": 721,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "marble-flow": {
+  "shots": 4,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "mini-car-racer": {
+  "shots": 3,
+  "w": 1280,
+  "h": 720,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "rainbow-sand": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "rocket-kingdoms": {
+  "shots": 8,
+  "w": 1280,
+  "h": 720,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "screwdom-city": {
+  "shots": 5,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ },
+ "next-stop": {
+  "shots": 8,
+  "w": 608,
+  "h": 1080,
+  "header": [
+   1024,
+   500
+  ]
+ }
+}

@@ -1,0 +1,402 @@
+{
+  "site": {
+    "url": "https://veganbeef6.github.io",
+    "name": "VeganBeef",
+    "email": "veganbeef6@gmail.com",
+    "city": "Islamabad, Pakistan",
+    "playDeveloper": "https://play.google.com/store/apps/developer?id=VeganBeef",
+    "youtube": "https://www.youtube.com/@veganbeef7565"
+  },
+  "games": [
+    {
+      "slug": "next-stop",
+      "title": "Next Stop: Bus Traffic Jam",
+      "pkg": "com.vb.next.stop.bus.traffic.jam",
+      "status": "soon",
+      "genre": "puzzle",
+      "kind": "Traffic puzzle",
+      "released": null,
+      "installs": 0,
+      "accent": "#F5B700",
+      "tagline": "Tap the buses, clear the traffic jam and get every rider aboard by color!",
+      "intro": "The buses are stuck, the crowd is waiting, and only you can get everyone moving through a sunny toy town.",
+      "how": [
+        "Tap a bus and it drives the way its arrow points.",
+        "It parks in a free bay beside the crowd.",
+        "Riders of the same color hop aboard.",
+        "A full bus drives off and frees its bay.",
+        "Send every bus on its way to win the level."
+      ],
+      "highlights": [
+        "Boosters: Crowd Shuffle, Balloon and Bus Shuffle",
+        "The Balloon lifts any bus straight to the gold Express Bay",
+        "Hidden buses keep their color secret until the moment is right",
+        "Win and your bus drives on through town to the next stop",
+        "Glossy toy buses, cheerful riders, flower beds and little houses"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
+      "slug": "bubble-word-sort",
+      "title": "Bubble Word Sort: Word Puzzle",
+      "pkg": "com.vb.bubble.word.sort",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Word puzzle",
+      "released": "2026-11-06",
+      "installs": 0,
+      "youtube": "l-ZZVcRaXDw",
+      "accent": "#0E8FA3",
+      "tagline": "Drag words into bubbles, match the ones that belong together and reveal groups!",
+      "intro": "Every bubble holds a word, and every word belongs to a hidden group. Find the words that go together in a sunny underwater lagoon.",
+      "how": [
+        "Drag a bubble onto another word from the same group.",
+        "The two bubbles merge into a bigger one that keeps both words.",
+        "Add the rest of the group and the bubble turns gold.",
+        "The gold bubble pops and reveals the name of the group.",
+        "Clear every group on the board to win the level."
+      ],
+      "highlights": [
+        "Some words fit more than one idea, so look closely before you drop",
+        "A streak of right drops earns an extra move",
+        "Hint lights up two words that belong together",
+        "Magnet pulls a whole group together",
+        "A living lagoon of fish, a friendly turtle and a jellyfish"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including Remove Ads (optional reward videos stay available)."
+    },
+    {
+      "slug": "color-stack-sort",
+      "title": "Color Stack Sort Master",
+      "pkg": "com.vb.color.stack.sort.master",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Color sort puzzle",
+      "released": "2026-11-02",
+      "installs": 5,
+      "youtube": "pql_V9E4-cw",
+      "accent": "#1E7FE0",
+      "tagline": "Drop, stack and sort the candy tiles until every stack is one bright color!",
+      "intro": "Every level is a row of stacks full of glossy candy tiles, and one tile is waiting in your hand.",
+      "how": [
+        "Tap a stack to drop your tile on top.",
+        "The tile at the bottom of that stack pops out into your hand.",
+        "A full stack of one color is complete and locks with a check mark.",
+        "Complete every stack before your moves run out."
+      ],
+      "highlights": [
+        "Rainbow tiles never count toward a color, so move them along",
+        "Secret tiles hide their color until they reach the bottom of a stack",
+        "Boosters: Undo, Swap and Magic Sort",
+        "Jelly-soft tiles that bounce, hop and settle with crisp sounds"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including coin packs, booster bundles and No Ads (optional reward videos stay available)."
+    },
+    {
+      "slug": "rainbow-sand",
+      "title": "Rainbow Sand: Color Sort",
+      "pkg": "com.vb.rainbow.sand.color.sort",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Color sort puzzle",
+      "released": "2026-11-01",
+      "installs": 0,
+      "youtube": "tiER6IwJr7U",
+      "accent": "#F2548F",
+      "tagline": "Sort the colorful sand into buckets and bring bright pixel pictures to life!",
+      "intro": "Every level is a pixel picture made of colorful sand, and a tray of buckets is waiting to collect it.",
+      "how": [
+        "Tap a bucket to send it onto the conveyor belt.",
+        "As it rides the belt, it draws its own color of sand out of the picture.",
+        "A full bucket leaves the belt and makes room for the next one.",
+        "The belt only has a few slots, so choose the order well.",
+        "Collect all the sand to clear the picture."
+      ],
+      "highlights": [
+        "Mystery buckets keep their color secret until you reach them",
+        "Boosters: Extra Slot, Clear, Magnet and Shuffle",
+        "Tap the x2 tag to make the belt run twice as fast",
+        "Soft sand sounds, with every grain flowing into the buckets",
+        "Coins for every picture and a daily gift"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including Remove Ads (optional reward videos stay available)."
+    },
+    {
+      "slug": "rocket-kingdoms",
+      "title": "Rocket Kingdoms: Castle Siege",
+      "pkg": "com.veganbeef.rocketkingdoms",
+      "status": "live",
+      "genre": "action",
+      "kind": "Turn-based castle battler",
+      "released": "2026-10-31",
+      "installs": 7,
+      "youtube": "BiyqL1fT1pk",
+      "accent": "#D9480F",
+      "tagline": "Aim, fire and blast rival castles! Build a fortress and lead a crew of heroes.",
+      "intro": "Pull back, aim and fire. Your crew shoots from inside your castle, and every hit blows the enemy's walls apart, brick by brick, until their crew is knocked out.",
+      "how": [
+        "Drag back to set the power and the angle, then let go to fire.",
+        "Take turns with your rival and knock out their crew to win.",
+        "Every castle is built differently: find its weak spot and bring it down."
+      ],
+      "highlights": [
+        "A crew of heroes with weapons of their own: rockets, bomb volleys, piercing bolts, powder kegs, bee hives and frost stones",
+        "Add rooms, upgrade blocks from timber to stone and iron, and fit shields, nets and cannons",
+        "Climb the leagues and beat each league's king at his own gate",
+        "Fight across waterfall valleys, cherry blossom hills, desert sands, snowy villages, royal palaces and a volcano",
+        "Win crates and cards, then earn more on the Siege Pass, the daily decrees and the weekend Boss Rush"
+      ],
+      "note": "Battles are against computer opponents, so you can play at your own pace.",
+      "money": "Free to play. Contains ads and optional in-app purchases."
+    },
+    {
+      "slug": "gemlings",
+      "title": "Gemlings: Block Puzzle",
+      "pkg": "com.veganbeef.gemlings",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Gem block puzzle",
+      "released": "2026-10-31",
+      "installs": 0,
+      "youtube": "s_X-iAAd7bg",
+      "accent": "#5B2FC9",
+      "tagline": "Fit glowing gems, clear lines and team up with cute crystal Gemlings!",
+      "intro": "Restore the shattered Heartstone of Glimmerdeep, one gleaming line at a time, with crystal creatures who charge up as you play.",
+      "how": [
+        "Drag glowing gem blocks onto the 8×8 board.",
+        "Fill rows and columns to clear them, and chain clears for big combos.",
+        "Charge up your Gemlings and unleash their powers."
+      ],
+      "highlights": [
+        "Hatch eggs and collect 12 Gemlings, from Common to Legendary",
+        "60 Adventure levels across five magical regions",
+        "Relaxing Classic mode with no timer",
+        "8 power-ups, from Hammer and Bomb to Prism and Undo",
+        "Daily Challenge, quests, a 7-day gift streak and the Fortune Wheel",
+        "Plays offline, no internet needed"
+      ],
+      "money": "Free to play with optional in-app purchases and ads. Remove Ads available."
+    },
+    {
+      "slug": "ant-colony",
+      "title": "Ant Colony: Sort Puzzle",
+      "pkg": "com.vb.ant.colony.sort.puzzle",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Color sort puzzle",
+      "released": "2026-10-31",
+      "installs": 16,
+      "youtube": "O5hyfzo334Y",
+      "accent": "#1C8FD6",
+      "tagline": "Send out cute ants, sort colorful cubes and clear every pixel picture!",
+      "intro": "Every level is a picture made of glossy color cubes, and a busy colony of cute ants is ready to carry it away, cube by cube.",
+      "how": [
+        "Tap a box of ants to move it into a slot.",
+        "Its ants march onto the picture, pick up cubes of their own color and carry them home.",
+        "Ants can only reach cubes they can walk to, so choose which box to send next.",
+        "If every slot fills up, the level is lost, so plan ahead."
+      ],
+      "highlights": [
+        "Pixel pictures of hot-air balloons, rockets, parrots, pumpkins and cupcakes",
+        "Boosters: Extra Slot, Shuffle, Pick Up and Tornado",
+        "2x speed whenever you like",
+        "Coins, a daily reward and costumes to unlock for your ant"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including No Ads (optional reward videos stay available)."
+    },
+    {
+      "slug": "cube-arrows",
+      "title": "Cube Arrows: Logic Puzzle",
+      "pkg": "com.vb.cube.arrows.logic.puzzle",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "3D logic puzzle",
+      "released": "2026-10-31",
+      "installs": 6,
+      "youtube": "2tt7o_coG9c",
+      "accent": "#E8890C",
+      "tagline": "Tap the arrows off the 3D cube, plan every move and clear the puzzle!",
+      "intro": "Every level is a cube or a block shape covered in arrows, and every arrow wants out.",
+      "how": [
+        "Tap an arrow and it slides along its path, folds over the edges and leaves the shape.",
+        "If it runs into another arrow, it springs back and you lose a heart.",
+        "Swipe to turn the shape and pinch to zoom.",
+        "Find the right order and clear every arrow to win."
+      ],
+      "highlights": [
+        "Boosters: Hint, Eraser, Hammer and Power Arrow",
+        "A free grid shows where every arrow will go",
+        "Light and dark themes",
+        "Coins for every cleared level"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including Remove Ads (optional reward videos stay available)."
+    },
+    {
+      "slug": "boom-tower-smash",
+      "title": "Boom Tower Smash: Cannon Game",
+      "pkg": "com.vb.boom.tower.smash",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Physics cannon puzzle",
+      "released": "2026-10-23",
+      "installs": 17,
+      "accent": "#D6336C",
+      "tagline": "Aim, fire and enjoy a satisfying smash in this physics puzzle cannon game!",
+      "intro": "Welcome to the seaside fair, where every stall has a tower waiting for your cannon. Tin cans clatter, jam jars splash, wooden crates splinter and stone blocks tumble.",
+      "how": [
+        "Tap to aim and fire the cannon.",
+        "Knock every prop off the stand before your shots run out.",
+        "Use boosters when a tower needs a little extra power."
+      ],
+      "highlights": [
+        "1,285 levels, from easy warm-ups to tricky towers",
+        "7 fairground worlds, from Meadow Fair to Candy Fair",
+        "Real physics: every hit, topple and chain reaction plays out differently",
+        "Boosters: the giant Hammer, Multi-Strike, Mega Cannon and Infinite Cannon",
+        "Up to 3 stars per level, and coins to collect"
+      ],
+      "money": "Free to play with optional in-app purchases and ads. Remove Ads available."
+    },
+    {
+      "slug": "marble-flow",
+      "title": "Marble Flow: Color Sort 3D",
+      "pkg": "com.vb.marbleflow.color.sorting",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Marble sort puzzle",
+      "released": "2026-06-26",
+      "installs": 168,
+      "accent": "#1763D6",
+      "tagline": "Sort colorful marbles, match the right colors, and clear challenging levels!",
+      "intro": "Watch colorful marbles roll along moving paths, make your choices and solve increasingly tricky logic puzzles in a vibrant 3D world.",
+      "how": [
+        "Tap to release colorful marbles into the flow.",
+        "Sort marbles into matching color containers.",
+        "Complete collection goals and clear each level.",
+        "Keep the flow moving and avoid overcrowding."
+      ],
+      "highlights": [
+        "Hundreds of sorting puzzle levels",
+        "Smooth 3D visuals and realistic marble movement",
+        "Helpful boosters for difficult moments",
+        "Plays offline, anytime and anywhere"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
+      "slug": "screwdom-city",
+      "title": "Screwdom City: Fun Puzzle 3D",
+      "pkg": "com.vb.screwdomcity.funpuzzle3d",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Screw sort puzzle",
+      "released": "2026-06-02",
+      "installs": 2936,
+      "accent": "#7C4DE8",
+      "tagline": "Match colorful screws in a relaxing and addictive puzzle adventure!",
+      "intro": "Sort colorful screws, organize them by color and complete satisfying puzzle levels in a fun 3D world.",
+      "how": [
+        "Move screws between pins.",
+        "Group the matching colors together.",
+        "Think ahead and use the available space wisely."
+      ],
+      "highlights": [
+        "A large collection of handcrafted levels",
+        "New obstacles and layouts keep every level fresh",
+        "Simple tap-and-play controls",
+        "Colorful 3D graphics and smooth animations"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases."
+    },
+    {
+      "slug": "color-arrow-escape",
+      "title": "Color Arrow Escape Puzzle",
+      "pkg": "com.vb.color.arrow.escape.puzzle",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Arrow logic puzzle",
+      "released": "2026-06-16",
+      "installs": 710,
+      "accent": "#0E9FB8",
+      "tagline": "Clear arrows, solve tricky puzzles, and master every challenging level!",
+      "intro": "Tap and clear arrows in the correct order, unlock blocked paths and solve puzzles that test your thinking.",
+      "how": [
+        "Tap arrows to move them in their indicated direction.",
+        "Only arrows with a clear path can be removed.",
+        "Plan your moves carefully.",
+        "Clear all arrows to complete the level."
+      ],
+      "highlights": [
+        "Hundreds of logic levels",
+        "New mechanics as the challenge grows",
+        "Smooth controls and satisfying animations",
+        "Easy to learn, difficult to master"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
+      "slug": "indian-truck-simulator",
+      "title": "Indian Truck Simulator Games",
+      "pkg": "com.vb.truck.simulation.game",
+      "status": "live",
+      "genre": "racing",
+      "kind": "Truck driving simulator",
+      "released": "2023-10-02",
+      "installs": 102253,
+      "accent": "#A84A1F",
+      "tagline": "Drive heavy trucks on offroad uphill tracks.",
+      "intro": "Start the engine, fill your oil tanker at the refinery and haul it to the station, or carry logs across hilly offroad tracks.",
+      "how": [],
+      "highlights": [
+        "Oil tankers, log trucks and trailers to drive",
+        "Offroad hills, zig-zag tracks, mud and city routes",
+        "Transport missions from the refinery to the gas station",
+        "Plays offline"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
+      "slug": "formula-racing",
+      "title": "Formula Racing Game 3D",
+      "pkg": "com.veganbeef.formula.racing",
+      "status": "live",
+      "genre": "racing",
+      "kind": "Formula car racing",
+      "released": "2022-09-22",
+      "installs": 758377,
+      "accent": "#157A45",
+      "tagline": "Formula cars, championship races and ramp stunts.",
+      "intro": "Take a formula car onto the track, race for the championship, or send it flying up the ramps on stunt tracks.",
+      "how": [],
+      "highlights": [
+        "Multiple formula cars to choose from",
+        "Championship levels and several race modes",
+        "Ramp stunts on impossible tracks",
+        "Racing pits and a windscreen view"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases."
+    },
+    {
+      "slug": "mini-car-racer",
+      "title": "Car Race Game 3D",
+      "pkg": "com.veganbeef.mini.car.racer",
+      "status": "live",
+      "genre": "racing",
+      "kind": "Street car racing",
+      "released": "2022-09-22",
+      "installs": 222615,
+      "accent": "#37475E",
+      "tagline": "Street races, car upgrades and police chases.",
+      "intro": "Pick a car, race through traffic and upgrade your ride in the garage.",
+      "how": [],
+      "highlights": [
+        "Police car chase mode",
+        "Upgrade engines, nitro and gears",
+        "Customize your car with paint and decals",
+        "Tilt or touch steering, with manual or automatic acceleration",
+        "Multiple camera views"
+      ],
+      "money": "Free to play. Contains ads."
+    }
+  ]
+}
