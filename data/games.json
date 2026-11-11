@@ -12,10 +12,10 @@
       "slug": "next-stop",
       "title": "Next Stop: Bus Traffic Jam",
       "pkg": "com.vb.next.stop.bus.traffic.jam",
-      "status": "soon",
+      "status": "live",
       "genre": "puzzle",
       "kind": "Traffic puzzle",
-      "released": null,
+      "released": "2026-11-07",
       "installs": 0,
       "accent": "#F5B700",
       "tagline": "Tap the buses, clear the traffic jam and get every rider aboard by color!",
@@ -34,7 +34,8 @@
         "Win and your bus drives on through town to the next stop",
         "Glossy toy buses, cheerful riders, flower beds and little houses"
       ],
-      "money": "Free to play. Contains ads."
+      "money": "Free to play. Contains ads.",
+      "youtube": "MMMH3wdynro"
     },
     {
       "slug": "bubble-word-sort",
