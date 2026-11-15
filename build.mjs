@@ -10,7 +10,7 @@ const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 const { site, games } = JSON.parse(read('data/games.json'));
 const media = JSON.parse(read('data/media.json'));
 const logo = JSON.parse(read('data/logo-paths.json'));
-const POLICY_DATE = '7 November 2026';
+const POLICY_DATE = '15 November 2026';
 const TERMS_DATE = '7 November 2026';
 const ASSET_V = Date.now().toString(36);
 
@@ -61,7 +61,7 @@ const vb = (label = '') => {
 };
 
 // What we make, for the band under the hero. Words only: no counts.
-const CATEGORIES = ['Color sorts', 'Logic puzzles', 'Word games', 'Block puzzles', 'Physics smash', 'Castle battles', 'Traffic puzzles', 'Racing', 'Truck driving'];
+const CATEGORIES = ['Party games', 'Color sorts', 'Logic puzzles', 'Word games', 'Block puzzles', 'Physics smash', 'Castle battles', 'Traffic puzzles', 'Racing', 'Truck driving'];
 
 const icon = (g, cls = '') => `<span class="sticker ${cls}" style="display:block"><img src="/media/${g.slug}/icon.webp" width="384" height="384" alt="" loading="lazy" decoding="async"></span>`;
 
@@ -310,10 +310,15 @@ function gamePage(g) {
   });
 }
 
+// Every game by name, for the privacy policy (Play: the policy names the apps it covers). Built from games.json, so a new
+// game is named as soon as it is added, "coming soon" ones included.
+const gamesCovered = () => `<p>The games it covers today: ${games.map((g) =>
+  `<a href="/games/${g.slug}/">${esc(g.title)}</a>${g.status === 'soon' ? ' (coming soon)' : ''}`).join(', ')}.</p>`;
+
 const textPage = ({ urlPath, title, heading, sub, file, current, desc }) => page({
   urlPath, title, desc, current,
   body: `<section class="page-head mat on-ink"><div class="wrap"><h1>${esc(heading)}</h1><p>${esc(sub)}</p></div></section>
-<div class="wrap"><article class="prose">${read(file)}</article></div>`,
+<div class="wrap"><article class="prose">${read(file).replace('<!--GAMES-->', gamesCovered())}</article></div>`,
 });
 
 write('index.html', home());

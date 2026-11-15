@@ -9,6 +9,32 @@
   },
   "games": [
     {
+      "slug": "1234-party-games",
+      "title": "1234 Party Games",
+      "pkg": "com.vb.sticker.party.games",
+      "status": "soon",
+      "genre": "action",
+      "kind": "Party games",
+      "installs": 0,
+      "accent": "#3FA7FF",
+      "tagline": "Quick party games for one to four players on one phone, with friends or bots!",
+      "intro": "Gather round one phone: quick, bright party games for one, two, three or four players, all on the same screen.",
+      "how": [
+        "Choose who is playing and pick a game, or let Surprise! pick one for you.",
+        "Your part of the screen is your button: tap, hold or drag in your own corner.",
+        "Win rounds to win the match, then take your place on the podium.",
+        "Friends not around? Bots fill the empty seats, from easy to hard."
+      ],
+      "highlights": [
+        "Race karts, throw snowballs and bump your rivals off Bumper Island",
+        "Team up two against two in Soccer and Tug of War",
+        "Board games too: Ludo, Vines & Ladders, Drop Four and more",
+        "Play a Party Cup or travel Sticker Road against the bots",
+        "Dress up your Sticker Buddies with fun hats"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
       "slug": "next-stop",
       "title": "Next Stop: Bus Traffic Jam",
       "pkg": "com.vb.next.stop.bus.traffic.jam",
