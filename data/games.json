@@ -9,6 +9,36 @@
   },
   "games": [
     {
+      "slug": "ring-twist-out",
+      "title": "Ring Twist Out: Untangle Rings",
+      "pkg": "com.vb.ring.twist.out.untangle",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Ring puzzle",
+      "released": "2026-11-17",
+      "installs": 0,
+      "youtube": "uDGxk6haUgs",
+      "accent": "#B84FD8",
+      "tagline": "Rotate the jelly rings and untangle them all in a relaxing ring puzzle game!",
+      "intro": "Rotate each squishy jelly ring until its gap lines up with the peg, watch it slip free with a jiggle and a pop, and untangle the whole board.",
+      "how": [
+        "Drag a ring to rotate it.",
+        "When a ring’s gap reaches its peg, the ring slips free.",
+        "Pieces with nothing left holding them pop off the board.",
+        "Tap a rod to slide it out once nothing blocks its path.",
+        "Untangle every ring to clear the level."
+      ],
+      "highlights": [
+        "New twists as you play: frozen rings, one-way rings, and in events gears, twins, colour locks, rails and fuses",
+        "Squishy jelly rings that squash, jiggle and pop",
+        "Boosters: Hint, Hammer and Jelly Bomb",
+        "Candy chapters from Meadow Morning to the Moon Palace, with a sticker Album",
+        "Daily challenge, Daily Leaderboard, events and a Day Streak",
+        "Night mode, and it plays offline"
+      ],
+      "money": "Free to play. Contains ads and optional in-app purchases, including Remove Ads (optional reward videos stay available)."
+    },
+    {
       "slug": "1234-party-games",
       "title": "1234 Party Games",
       "pkg": "com.vb.sticker.party.games",
