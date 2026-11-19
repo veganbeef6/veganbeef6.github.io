@@ -134,19 +134,19 @@
    500
   ]
  },
- "1234-party-games": {
+ "ring-twist-out": {
   "shots": 8,
-  "w": 1280,
-  "h": 720,
+  "w": 608,
+  "h": 1080,
   "header": [
    1024,
    500
   ]
  },
- "ring-twist-out": {
+ "2-3-4-player-games": {
   "shots": 8,
-  "w": 608,
-  "h": 1080,
+  "w": 1280,
+  "h": 720,
   "header": [
    1024,
    500
