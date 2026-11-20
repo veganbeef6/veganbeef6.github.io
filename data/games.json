@@ -9,6 +9,36 @@
   },
   "games": [
     {
+      "slug": "paper-pour",
+      "title": "Paper Pour: Water Sort Puzzle",
+      "pkg": "com.vb.paper.pour.water.sort.puzzle",
+      "status": "live",
+      "genre": "puzzle",
+      "kind": "Water sort puzzle",
+      "released": "2026-11-20",
+      "installs": 0,
+      "youtube": "_30EuLdGU6k",
+      "accent": "#F8D800",
+      "tagline": "A cozy water sort puzzle made of paper. Pour, sort, paste it in. Plays offline.",
+      "intro": "A relaxing water sort puzzle where every bottle, every drop of color and every page is made of paper. Sort the colors, cork the bottles and paste each finished page into your scrapbook.",
+      "how": [
+        "Tap a bottle, then tap another to pour.",
+        "Pour onto the same color, or into an empty bottle.",
+        "Stack the colors until each bottle holds just one.",
+        "A sorted bottle gets a cork and a paper label.",
+        "Finish the page, snap a polaroid and turn to the next one."
+      ],
+      "highlights": [
+        "Cut-paper bottles that tear in half, unroll from scrolls and flutter away on the wind",
+        "Craft tools: a Pencil hint, a paper Fan shuffle, Scissors for an extra bottle and a free Eraser undo",
+        "200 pages, from easy first pours to paper bags, jam-jar covers, frost and hidden layers",
+        "No timer and no game over: undo, add a bottle or start the page again",
+        "Daily rewards, a free gift and a paper Lucky Spin",
+        "Paper backdrops to unlock, and it plays offline"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
       "slug": "ring-twist-out",
       "title": "Ring Twist Out: Untangle Rings",
       "pkg": "com.vb.ring.twist.out.untangle",
