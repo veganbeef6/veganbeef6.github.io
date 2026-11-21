@@ -10,8 +10,8 @@ const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 const { site, games } = JSON.parse(read('data/games.json'));
 const media = JSON.parse(read('data/media.json'));
 const logo = JSON.parse(read('data/logo-paths.json'));
-const POLICY_DATE = '21 November 2026';
-const TERMS_DATE = '21 November 2026';
+const POLICY_DATE = '22 November 2026';
+const TERMS_DATE = '22 November 2026';
 const ASSET_V = Date.now().toString(36);
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
