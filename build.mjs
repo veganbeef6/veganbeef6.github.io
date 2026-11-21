@@ -10,8 +10,8 @@ const read = (p) => fs.readFileSync(path.join(ROOT, p), 'utf8');
 const { site, games } = JSON.parse(read('data/games.json'));
 const media = JSON.parse(read('data/media.json'));
 const logo = JSON.parse(read('data/logo-paths.json'));
-const POLICY_DATE = '15 November 2026';
-const TERMS_DATE = '7 November 2026';
+const POLICY_DATE = '21 November 2026';
+const TERMS_DATE = '21 November 2026';
 const ASSET_V = Date.now().toString(36);
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -97,7 +97,7 @@ const footer = () => `<footer class="foot"><div class="wrap foot-in">
     <a class="brand" href="/" aria-label="VeganBeef home">${vb('')}<span style="color:#fff">VeganBeef</span></a>
     <nav aria-label="Footer"><a href="/#games">Games</a><a href="/support/">Support</a><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of service</a><a href="${site.playDeveloper}">Google Play</a><a href="${site.youtube}">YouTube</a></nav>
   </div>
-  <small>© ${new Date().getFullYear()} VeganBeef, ${esc(site.city)}. Google Play and the Google Play logo are trademarks of Google LLC.</small>
+  <small>© ${new Date().getFullYear()} VeganBeef, a brand of ASGAMES, ${esc(site.city)}. Google Play and the Google Play logo are trademarks of Google LLC.</small>
 </div></footer>`;
 
 function page({ urlPath, title, desc, og = '/assets/brand/og.jpg', body, current, jsonld, robots }) {
@@ -222,7 +222,7 @@ function home() {
   <div class="studio-copy">
     <h2>Yes, the name is a contradiction.</h2>
     <p>So is a relaxing game about firing cannons at jam jars.</p>
-    <p>VeganBeef is a mobile game studio in ${esc(site.city)}. We make games you can pick up for a few minutes and put down happy: short levels, bright art and something satisfying happening all the time.</p>
+    <p>VeganBeef is a mobile game studio in ${esc(site.city)}, and the games brand of ASGAMES. We make games you can pick up for a few minutes and put down happy: short levels, bright art and something satisfying happening all the time.</p>
     <p>We started with racing and driving games. Today we make puzzles of every kind, word games and action games too, and there is always another one on the way.</p>
   </div>
   <div class="years">${years}</div>
@@ -243,7 +243,7 @@ function home() {
     title: 'VeganBeef Games',
     desc: `VeganBeef is a mobile game studio in ${site.city}, making free-to-play puzzle, word, action, racing and driving games for Android.`,
     body,
-    jsonld: { '@context': 'https://schema.org', '@type': 'Organization', name: 'VeganBeef', url: site.url + '/', logo: site.url + '/assets/brand/apple-touch-icon.png', email: site.email, address: { '@type': 'PostalAddress', addressCountry: 'PK' }, sameAs: [site.playDeveloper, site.youtube] },
+    jsonld: { '@context': 'https://schema.org', '@type': 'Organization', name: 'VeganBeef', legalName: 'ASGAMES', url: site.url + '/', logo: site.url + '/assets/brand/apple-touch-icon.png', email: site.email, address: { '@type': 'PostalAddress', addressCountry: 'PK' }, sameAs: [site.playDeveloper, site.youtube] },
   });
 }
 

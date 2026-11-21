@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // The VeganBeef / ASGAMES website: the static files in docs/, served by Cloudflare at asgamesstudio.com.
+  // Deploy from this folder with: npx wrangler@4 deploy
+  "name": "asgamesstudio",
+  "compatibility_date": "2026-11-19",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "docs",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "asgamesstudio.com", "custom_domain": true },
+    { "pattern": "www.asgamesstudio.com", "custom_domain": true }
+  ]
+}
