@@ -97,7 +97,7 @@ const footer = () => `<footer class="foot"><div class="wrap foot-in">
     <a class="brand" href="/" aria-label="VeganBeef home">${vb('')}<span style="color:#fff">VeganBeef</span></a>
     <nav aria-label="Footer"><a href="/#games">Games</a><a href="/support/">Support</a><a href="/privacy/">Privacy policy</a><a href="/terms/">Terms of service</a><a href="${site.playDeveloper}">Google Play</a><a href="${site.youtube}">YouTube</a></nav>
   </div>
-  <small>© ${new Date().getFullYear()} VeganBeef, a brand of ASGAMES, ${esc(site.city)}. Google Play and the Google Play logo are trademarks of Google LLC.</small>
+  <small>© ${new Date().getFullYear()} VeganBeef, a brand of ASGames: ASGames (sole proprietorship of Ali Shehroz, NTN 4827053-7) and ASGAMES (SMC-PRIVATE) LIMITED (CUIN 0368882). House Number 19, Hassan Street Number 1, Defence Road, New Lalazar, Rawalpindi, Pakistan. Google Play and the Google Play logo are trademarks of Google LLC.</small>
 </div></footer>`;
 
 function page({ urlPath, title, desc, og = '/assets/brand/og.jpg', body, current, jsonld, robots }) {
