@@ -9,6 +9,34 @@
   },
   "games": [
     {
+      "slug": "pixel-snake-flow",
+      "title": "Pixel Snake Flow: Art Puzzle",
+      "pkg": "com.vb.pixal.flow.snake.game",
+      "status": "soon",
+      "genre": "puzzle",
+      "kind": "Snake puzzle",
+      "installs": 0,
+      "accent": "#7BD13A",
+      "tagline": "Hatch color snakes and let them eat the pixel art, cube by cube. A satisfying snake puzzle.",
+      "intro": "A satisfying snake puzzle where colorful snakes eat a 3D pixel art picture, cube by cube. Tap an egg, watch a snake hatch and let it eat every block of its own color until the whole picture is gone.",
+      "how": [
+        "Tap the front egg of a row to hatch its snake.",
+        "The snake eats the cubes of its color that it can reach.",
+        "A full snake slides into the hole and is done.",
+        "A snake that can't reach its color coils around a pole and waits.",
+        "Eat every cube to finish the picture and win."
+      ],
+      "highlights": [
+        "Snakes that slither, munch and coil around the poles",
+        "Glossy 3D pixel art blocks that vanish bite by bite",
+        "A real color puzzle in every level: open a path to the hidden colors first",
+        "Boosters: Extra Pole, Pick Any Egg, Shuffle and Speed Up",
+        "Every finished picture goes into your pixel art Album",
+        "A new world every level: a snake terrarium, candy land, a frosty valley, an ocean reef and a toy box"
+      ],
+      "money": "Free to play. Contains ads."
+    },
+    {
       "slug": "paper-pour",
       "title": "Paper Pour: Water Sort Puzzle",
       "pkg": "com.vb.paper.pour.water.sort.puzzle",
